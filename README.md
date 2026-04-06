@@ -51,7 +51,7 @@ DATABASE_URL=sqlite://db.sqlite3
 ### 4. Run the Server
 Start the FastAPI development server:
 ```bash
-poetry run uvicorn main:app --reload
+poetry run fastapi dev
 ```
 The application will automatically connect to the database and generate the required schemas on startup.
 
