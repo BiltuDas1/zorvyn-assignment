@@ -4,7 +4,6 @@ from tortoise import Tortoise
 from . import logger
 
 
-
 @asynccontextmanager
 async def APILifespan(app: FastAPI):
   yield  # All API tasks are here

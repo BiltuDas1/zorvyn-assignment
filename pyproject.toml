@@ -14,7 +14,8 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "python-dotenv (>=1.2.2,<2.0.0)"
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "ruff (>=0.15.9,<0.16.0)"
 ]
 
 
